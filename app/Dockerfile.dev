@@ -7,4 +7,4 @@ COPY package*.json ./
 RUN npm install
 
 # ไม่ COPY . . เพราะจะใช้ volume mount
-CMD ["npm", "run", "dev"]
+# CMD ["npm", "run", "dev"]
